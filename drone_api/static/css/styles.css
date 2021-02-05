@@ -1,0 +1,113 @@
+/*Nav styles */
+.ct-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Target Main Logo Image */
+.ct-nav img{
+    width: 25%;
+    max-width: 100%;
+    margin-left: 2vw
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display: inline;
+    text-decoration: none;
+    padding: 0.5vw;
+    color: black;
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid blue;
+    border-radius: 11px;
+    margin-right: 0.2vw;
+}
+/* End of nav styles */
+
+/* start of hero/header section*/
+#header-text{
+    padding: 2vw;
+}
+
+.header-image{
+    width: 82%;
+    max-width: 100%;
+}
+
+/* End of Hero/Header Section */
+
+
+/*Start of Middle Section styles */
+#middle-text{
+    text-align: center;
+    padding: 13vh;
+}
+
+#middle-text h2{
+    padding: 1.5vw;
+}
+/*End of Midle Section Styles*/
+
+/*Start of Features section styles*/
+#api-image,#graphql-image,#database-image{
+    margin-bottom: 10vh;
+}
+
+#features{
+    margin: 8vw;
+}
+/*End of Features section styles */
+
+/* Community Section Styles*/
+#Drone-image{
+    width: 50%;
+    max-width: 75%;
+    margin-left: 3vw;
+}
+
+/*END of Community Section*/
+
+/*Footer Section Styles*/
+.footer-text-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vw;
+}
+
+#footer-logo{
+    width: 100%;
+    max-width: 100%;
+}
+
+#footer{
+    border-top: 3px solid black;
+    margin-top: 20vh;
+}
+
+
+/*profile styles*/
+.hero-section{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(30, 115,172, 0.7), rgba(142,57,153, 0.6)), url(../images/drone-profile.jpg);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+
+.header-text{
+    display:flex;
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem;
+    top: 10rem;
+    color: white;
+}
